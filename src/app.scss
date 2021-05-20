@@ -1,0 +1,36 @@
+$color: #8A2BE2;
+$size: 100px;
+$align: center;
+$distance: 20px;
+
+html {
+    text-align: $align;
+}
+
+p {
+    color: $color;
+    margin: $distance;
+}
+
+button:hover {
+    background-color: $color;
+}
+
+.content-container {
+    border: solid 2px $color;
+    padding: $distance;
+}
+
+h1 {
+    margin: $distance;
+}
+
+h1:hover {
+    font-size: $size;
+    color: $color;
+}
+
+a {
+    font-size: $size;
+    color: $color;
+}
